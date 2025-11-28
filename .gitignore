@@ -1,0 +1,8 @@
+# Ignore IntelliJ project files
+.idea/
+
+# Compiled Java classes
+*.class
+
+# Build folders
+out/
