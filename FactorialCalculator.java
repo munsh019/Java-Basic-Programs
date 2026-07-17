@@ -1,9 +1,8 @@
 import java.util.Scanner;
-
-public class FactorialCalculator {
+ public class FactorialCalculator {
     public static long fact(int num) {
         if (num < 0) {
-        throw new IllegalArgumentException("Factorial is not defined for negative numbers.");
+            throw new IllegalArgumentException("Factorial is not defined for negative numbers.");
         }
         long result = 1;
         for (int i = 1; i <= num; i++) {
@@ -11,7 +10,7 @@ public class FactorialCalculator {
         }
         return result;
     }
-public static void main(String[] args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a number to calculate its factorial: ");
@@ -21,8 +20,8 @@ public static void main(String[] args){
             long factorial = fact(num);
             System.out.println("Factorial of " + num +" is " + factorial);
         } catch(IllegalArgumentException e){
-        System.out.println(e.getMessage());
-    }
+            System.out.println(e.getMessage());
+        }
         sc.close();
-}
+    }
 }
