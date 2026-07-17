@@ -33,6 +33,8 @@ This repository contains a collection of simple Java programs that I created whi
 
 - **Reverse.java**  
   Reverses a string or number.
+- **Calc.java**
+- Performs basic arithmetic operations such as addition,subtraction,mutliplication,division, and modulus using a menu-driven console        based interface. Includes division-by-zero handling , formatted output, and continous calculation until user exits. 
 
 ## How to Run
 
